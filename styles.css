@@ -1,0 +1,210 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: rgb(13, 10, 10);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 3rem
+}
+
+.custom-card {
+    max-width: 200px; 
+    margin: 10 auto; 
+    border: 1px solid #cecaca;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-img {
+    height: 160px; 
+    object-fit: cover; 
+    border-radius: 0.5rem 0.5rem 0 0; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Parallax effect */
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Testimonials */
+.testimonial-section {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.testimonial-author {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 3rem;
+    background-color: #f8f9fa;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+/* Navbar hover effects */
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Change text color on hover */
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu:hover {
+    transform: scale(1.05); /* Scale dropdown menu on hover */
+}
+
+.sticky-top {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to navbar */
+    background: rgba(0, 123, 255, 0.9); /* Slightly transparent background */
+}
+
+/* Search bar styling */
+.form-inline input[type="search"] {
+    border-radius: 20px;
+}
+
+.form-inline button[type="submit"] {
+    border-radius: 20px;
+}
+
+/* Customer Testimonials Section */
+.testimonials blockquote {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Featured Services Section */
+.featured-services .service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-services .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Section */
+.testimonials blockquote {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Promotional Banners Section */
+.promotional-banners .promo-banner {
+    background-color: #444;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.promotional-banners .promo-banner:hover {
+    background-color: #555;
+}
+
+.custom-card, .team-card {
+    height: 100%;
+    width: 300px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-img, .team-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.why-choose-us .custom-card {
+    max-width: 20rem;
+    margin: 20px auto;
+}
+
+.custom-img {
+    height: 150px; 
+    object-fit: cover; 
+}

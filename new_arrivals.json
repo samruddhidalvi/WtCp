@@ -1,0 +1,40 @@
+{
+    "newArrivals": [
+        {
+            "name": "Stainless Steel Sink",
+            "description": "High-quality stainless steel kitchen sink, durable and stylish.",
+            "price": "₹3500",
+            "image": "SteelSink.jpeg"
+        },
+        {
+            "name": "Pillar Cock Faucet",
+            "description": "Elegant pillar cock faucet with chrome finish, perfect for bathrooms.",
+            "price": "₹1200",
+            "image": "Pillar.jpeg"
+        },
+        {
+            "name": "Wall Mounted Taps",
+            "description": "Durable wall mounted taps with easy installation.",
+            "price": "₹900",
+            "image": "Taps.jpeg"
+        },
+        {
+            "name": "Ceramic Wash Basin",
+            "description": "Modern ceramic wash basin, ideal for any home.",
+            "price": "₹2800",
+            "image": "Basin.jpeg"
+        },
+        {
+            "name": "Shower Head",
+            "description": "Rainfall shower head for a luxurious bathing experience.",
+            "price": "₹1500",
+            "image": "Shower.jpeg"
+        },
+        {
+            "name": "Pipe Wrench",
+            "description": "Heavy-duty pipe wrench, ideal for plumbing jobs.",
+            "price": "₹450",
+            "image": "PipeWrench.jpeg"
+        }
+    ]
+}

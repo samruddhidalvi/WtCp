@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Hammer",
+        "category": "tools",
+        "img": "hammar.jpeg",
+        "price": 500,
+        "description": "A high-quality steel hammer."
+        
+    },
+    {
+        "name": "Screwdriver Set",
+        "category": "tools",
+        "img": "screwdriver.jpeg",
+        "price": 300,
+        "description": "Set of precision screwdrivers."
+    },
+    {
+        "name": "Pliers",
+        "category": "tools",
+        "img": "pliers.jpeg",
+        "price": 350,
+        "description": "Multi-purpose pliers for various tasks."
+    },
+    {
+        "name": "Measuring Tape",
+        "category": "tools",
+        "img": "tape.jpeg",
+        "price": 150,
+        "description": "Durable 5-meter measuring tape."
+    },
+    {
+        "name": "Hand Saw",
+        "category": "tools",
+        "img": "saw.jpeg",
+        "price": 450,
+        "description": "Woodworking hand saw for precise cutting.",
+        "quantity": 1
+    },
+    {
+        "name": "Pipe Wrench",
+        "category": "plumbing",
+        "img": "wrench.jpeg",
+        "price": 700,
+        "description": "Heavy-duty adjustable pipe wrench."
+    },
+    {
+        "name": "PVC Pipe",
+        "category": "plumbing",
+        "img": "pipe.jpeg",
+        "price": 200,
+        "description": "Durable PVC pipe for drainage systems."
+    },
+    {
+        "name": "Faucet",
+        "category": "plumbing",
+        "img": "Faucet.jpeg",
+        "price": 600,
+        "description": "High-quality stainless steel faucet."
+    },
+    {
+        "name": "Teflon Tape",
+        "category": "plumbing",
+        "img": "teflon.jpg",
+        "price": 60,
+        "description": "Teflon tape for sealing pipe threads."
+    },
+    {
+        "name": "Door Handle",
+        "category": "hardware",
+        "img": "handle.jpeg",
+        "price": 400,
+        "description": "Stylish door handle for modern homes."
+    },
+    {
+        "name": "Padlock",
+        "category": "hardware",
+        "img": "lock.jpeg",
+        "price": 200,
+        "description": "Heavy-duty padlock for security purposes."
+    },
+    {
+        "name": "Cabinet Hinges",
+        "category": "hardware",
+        "img": "Cabinet.jpeg",
+        "price": 180,
+        "description": "Stainless steel cabinet hinges for smooth operation."
+    },
+    {
+        "name": "Wall Hook",
+        "category": "hardware",
+        "img": "hook.jpg",
+        "price": 250,
+        "description": "Durable wall hook for hanging items."
+    },
+    {
+        "name": "Electric Drill",
+        "category": "electrical",
+        "img": "Electricdrill.jpeg",
+        "price": 1200,
+        "description": "Powerful electric drill for professional use."
+    },
+    {
+        "name": "Extension Cord",
+        "category": "electrical",
+        "img": "Extension.jpeg",
+        "price": 400,
+        "description": "Heavy-duty extension cord with surge protection."
+    },
+    {
+        "name": "Electrical Conduit Pipes",
+        "category": "electrical",
+        "img": "Electricalpipe.jpg",
+        "price": 360 ,
+        "description": "PVC conduit pipes for wiring protection."
+    },
+    {
+        "name": "Electrical Tape",
+        "category": "electrical",
+        "img": "ElectricalTape.jpeg",
+        "price": 40,
+        "description": "Insulation tape for electrical wiring."
+    }
+    ]

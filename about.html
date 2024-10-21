@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bharat Hardware Stores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F4F4F9; /* Light Cool Gray */
+            color: #333; /* Dark Gray for text */
+        }
+        .btn-custom {
+            background-color: #F67280; /* Soft Coral */
+            border: none;
+        }
+        .custom-card {
+    max-height: 300px; /* Adjust as needed */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #F67280 !important; /* Change text color on hover */
+    }
+
+    .btn-primary:hover {
+        background-color: #F35D6F; /* Darker red on hover */
+        transform: scale(1.05); /* Slight button scaling on hover */
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #F67280; /* Fill with color on hover */
+        color: #FFF !important; /* Change text color to white */
+        transform: scale(1.05); /* Slight button scaling on hover */
+    }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg" style="background-color: #000000;">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="color: #ffffff; font-weight: bold;">Bharat Hardware Stores</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php" style="color: #ffffff; transition: color 0.3s;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#offers" style="color: #ffffff; transition: color 0.3s;">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" style="color: #ffffff; transition: color 0.3s;">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="color: #ffffff; transition: color 0.3s;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shopnow.php" style="color: #ffffff; transition: color 0.3s;">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php" style="color: #ffffff; transition: color 0.3s;">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light mr-2" href="shopnow.php" style="
+                        border-color: #ffffff; 
+                        color: #ffffff; 
+                        transition: background-color 0.3s, color 0.3s, transform 0.3s;">
+                        Shop Now
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light mr-2" href="cart.php" style="
+                        border-color: #ffffff; 
+                        color: #ffffff; 
+                        transition: background-color 0.3s, color 0.3s, transform 0.3s;">
+                        Cart
+                    </a>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light" href="login.php" style="
+                        border-color: #ffffff; 
+                        color: #ffffff; 
+                        transition: background-color 0.3s, color 0.3s, transform 0.3s;">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+<main class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 text-primary">About Bharat Hardware Stores</h1>
+        <p class="lead">Your trusted partner in home improvement and hardware solutions since 1980.</p>
+    </div>
+
+    <section class="row mt-5">
+        <div class="col-md-6">
+            <img src="shop.jpg" alt="Our Store" class="img-fluid rounded shadow">
+        </div>
+
+        <!-- story -->
+        <div class="col-md-6">
+            <h2 class="font-weight-bold text-primary">Our Story</h2>
+            <p>Bharat Hardware Stores began as a humble venture by Ram Dalvi, who had a passion for providing quality tools and materials to the community. With his dedication and hard work, he laid the foundation for what would become a trusted name in the hardware industry.</p>
+            <p>As the years passed, Sachin Dalvi and Vrushali Dalvi took over the business, infusing it with fresh ideas and expanding our range of products. Together, they ensured that Bharat Hardware Stores remained committed to excellence, serving generations of customers with the same integrity and care that my grandfather instilled in us.</p>
+            <button class="btn btn-custom" data-toggle="collapse" data-target="#moreStory">Read More</button>
+            <div class="collapse mt-3" id="moreStory">
+                <p>We started with just a few basic tools and have since expanded to offer a wide range of products including plumbing supplies, electrical tools, household hardware, and more. Our team is dedicated to helping you find exactly what you need for your projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- choose -->
+    <section class="why-choose-us text-center mt-5">
+        <h2 class="font-weight-bold text-primary">Why Choose Us?</h2>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card border-primary">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <img src="quality.jpg" alt="Quality Products" class="card-img custom-img" style="max-width: 100%; height: auto;">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Quality Products</h5>
+                                <p class="card-text">We stock only the highest quality products from trusted brands, ensuring durability and reliability.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card border-primary">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <img src="service.png" alt="Customer Service" class="card-img custom-img" style="max-width: 100%; height: auto;">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Excellent Customer Service</h5>
+                                <p class="card-text">Our knowledgeable and friendly staff are always ready to assist you with any questions or needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card border-primary">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <img src="customer.png" alt="Community Support" class="card-img custom-img" style="max-width: 100%; height: auto;">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Community Support</h5>
+                                <p class="card-text">We take pride in giving back to the community that has supported us for years.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .custom-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer; /* Add a pointer cursor for better UX */
+            border-radius: 10px; /* Slightly rounded corners */
+            overflow: hidden; /* Prevent overflow */
+            position: relative; /* Set position for hover effects */
+        }
+    
+        .custom-card:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+    
+        .custom-img {
+            height: 80px; /* Set a smaller height for images */
+            object-fit: cover; /* Maintain aspect ratio */
+            transition: transform 0.3s; /* Image transition */
+        }
+    
+        .custom-card:hover .custom-img {
+            transform: scale(1.1); /* Slight zoom on hover */
+        }
+    
+        .card-title {
+            font-size: 1.25rem; /* Slightly larger title */
+            margin-bottom: 0.5rem;
+            transition: color 0.3s; /* Transition for text color */
+        }
+    
+        .custom-card:hover .card-title {
+            color: #F67280; /* Change text color on hover */
+        }
+    
+        .card-text {
+            font-size: 0.9rem; /* Adjusted font size for better readability */
+            transition: color 0.3s; /* Transition for text color */
+        }
+    
+        .custom-card:hover .card-text {
+            color: #333; /* Change text color on hover */
+        }
+    </style>
+    
+    
+
+    <!-- team -->
+    <section class="meet-our-team text-center mt-5" style="background-color: #F7F2EA; padding: 50px 0;">
+        <h2 class="font-weight-bold text-primary" style="color: #3A3E4D; font-family: 'Georgia', serif;">Meet Our Team</h2>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="card team-card border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s; padding: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="color: #F67280; font-family: 'Arial', sans-serif;">Mr. Ram Dalvi</h5>
+                        <p class="card-text" style="color: #4A4E69;">Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card team-card border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s; padding: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="color: #F67280; font-family: 'Arial', sans-serif;">Mr. Sachin Dalvi</h5>
+                        <p class="card-text" style="color: #4A4E69;">Owner & Business Head</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card team-card border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s; padding: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="color: #F67280; font-family: 'Arial', sans-serif;">Mrs. Vrushali Dalvi</h5>
+                        <p class="card-text" style="color: #4A4E69;">Shop Manager & Co-Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .team-card {
+            transition: transform 0.3s, box-shadow 0.3s; /* Card transition */
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Prevent overflow */
+            position: relative; /* For absolute positioning */
+        }
+    
+        .img-container {
+            position: relative; /* For hover effect */
+            overflow: hidden; /* Prevent image overflow */
+        }
+    
+        .team-img {
+            max-width: 80%; /* Reduce image size */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Circular images */
+            transition: transform 0.3s; /* Image transition */
+            position: absolute; /* Positioning for zoom effect */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Centering */
+        }
+    
+        .team-card:hover {
+            transform: scale(1.05); /* Slightly enlarge card on hover */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+    
+        .team-card:hover .team-img {
+            transform: scale(1.1); /* Slight zoom on hover */
+        }
+    
+        .card-title {
+            font-size: 1.25rem; /* Title size */
+            margin-bottom: 0.5rem;
+            transition: color 0.3s; /* Transition for title color */
+        }
+    
+        .team-card:hover .card-title {
+            color: #F67280; /* Change color on hover */
+        }
+    
+        .card-text {
+            font-size: 0.9rem; /* Description size */
+            transition: color 0.3s; /* Transition for text color */
+        }
+    
+        .team-card:hover .card-text {
+            color: #555; /* Change color on hover */
+        }
+    </style>
+    
+
+    <section class="text-center mt-5" style="background-color: #F7F2EA; padding: 50px 0;">
+        <h2 class="font-weight-bold text-primary" style="color: #3A3E4D;">Customer Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="card w-75 border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <p class="card-text" style="font-style: italic;">"Bharat Hardware Stores has been my go-to for all my home improvement needs. The staff is knowledgeable and always ready to help. Highly recommend!"</p>
+                                <footer class="blockquote-footer">Amit Verma</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card w-75 border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <p class="card-text" style="font-style: italic;">"The quality of products here is unmatched. I always find what I need, and the service is top-notch!"</p>
+                                <footer class="blockquote-footer">Neha Singh</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card w-75 border-0" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <p class="card-text" style="font-style: italic;">"A great place to shop for all kinds of hardware supplies. The store has everything, and the prices are reasonable."</p>
+                                <footer class="blockquote-footer">Ravi Kumar</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="background-color: black; border-radius: 50%; padding: 10px;" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" style="background-color: black; border-radius: 50%; padding: 10px;" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+</main>
+
+<footer class="text-center py-3 bg-dark text-white mt-5">
+    &copy; 2024 Bharat Hardware Stores. All rights reserved.
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

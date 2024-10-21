@@ -1,0 +1,46 @@
+{
+    "saleItems": [
+        {
+            "name": "Electric Drill Machine",
+            "description": "High-performance drill machine for all your DIY needs.",
+            "originalPrice": "₹2500",
+            "discountedPrice": "₹2000",
+            "image": "Electricdrill.jpeg"
+        },
+        {
+            "name": "Hammer Set",
+            "description": "Durable hammer set with ergonomic design.",
+            "originalPrice": "₹500",
+            "discountedPrice": "₹350",
+            "image": "HammerSet.jpeg"
+        },
+        {
+            "name": "Plumbing Tool Kit",
+            "description": "Complete plumbing tool kit for home and professional use.",
+            "originalPrice": "₹1500",
+            "discountedPrice": "₹1200",
+            "image": "plumbing_kit.jpeg"
+        },
+        {
+            "name": "Wire Stripper",
+            "description": "Efficient wire stripper for electrical work.",
+            "originalPrice": "₹300",
+            "discountedPrice": "₹250",
+            "image": "wire.jpeg"
+        },
+        {
+            "name": "Allen Key Set",
+            "description": "High-quality Allen key set for multi-purpose use.",
+            "originalPrice": "₹500",
+            "discountedPrice": "₹400",
+            "image": "KeySet.jpeg"
+        },
+        {
+            "name": "Circular Saw",
+            "description": "Powerful circular saw for cutting wood and metal.",
+            "originalPrice": "₹3500",
+            "discountedPrice": "₹3000",
+            "image": "circular.jpeg"
+        }
+    ]
+}
